@@ -1,6 +1,6 @@
 let empleados = [];
 
-function Empleados(legajo, nombre, apellido, nacimiento, cargo){
+function Empleado(legajo, nombre, apellido, nacimiento, cargo){
     this.legajo = legajo;
     this.nombre = nombre;
     this.apellido = apellido;
@@ -14,5 +14,7 @@ function agregarEmpleado(){
     let apellido = document.getElementById("txtApellido").value;
     let nacimiento = document.getElementById("txtNacimiento").value;
     let cargo = document.getElementById("txtCargo").value;
+
+    let empleado = new Empleado(legajo, nombre, apellido, nacimiento, cargo);
 
 }
