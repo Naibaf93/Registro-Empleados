@@ -7,3 +7,12 @@ function Empleados(legajo, nombre, apellido, nacimiento, cargo){
     this.nacimiento = nacimiento;
     this.cargo = cargo;
 }
+
+function agregarEmpleado(){
+    let legajo = document.getElementById("txtLegajo").value;
+    let nombre = document.getElementById("txtNombre").value;
+    let apellido = document.getElementById("txtApellido").value;
+    let nacimiento = document.getElementById("txtNacimiento").value;
+    let cargo = document.getElementById("txtCargo").value;
+
+}
