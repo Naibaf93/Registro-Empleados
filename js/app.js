@@ -16,5 +16,8 @@ function agregarEmpleado(){
     let cargo = document.getElementById("txtCargo").value;
 
     let empleado = new Empleado(legajo, nombre, apellido, nacimiento, cargo);
+    empleados.push(empleado);
+
+    alert("Empleado agregado...");
 
 }
