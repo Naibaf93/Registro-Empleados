@@ -32,3 +32,11 @@ function mostrarEmpleados(){
     }
     alert(listado);
 }
+
+function limpiarCampos(){
+    document.getElementById("txtLegajo").value = "";
+    document.getElementById("txtNombre").value = "";
+    document.getElementById("txtApellido").value = "";
+    document.getElementById("txtNacimiento").value = "";
+    document.getElementById("txtCargo").value = "";
+}
